@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="buttons-timer">
+        <div class="error">
+            <span class="error-text"></span>
+            <div class="error-buttons">
+                <button id="close">Close</button>
+                <button class="check" id="errorCheck">Check</button>
+            </div>
+        </div>
+        <div class="timer"> <span id="minutes">01</span>:<span id="seconds">00</span></div>
+        <div class="buttons">
+            <button id="start-button" disabled style="background-color: gray">Start game!</button>
+            <button class="check" id="check" disabled style="background-color: gray">Check result</button>
+            <button id="new">New game</button>
+        </div>
+    </div>
+    <div class="container">
+        <div id="start" class="number-box">
+            <div class="number" style="background-image: url(./img/image_part_001.jpg);">1</div>
+            <div class="number" style="background-image: url(./img/image_part_002.jpg);">2</div>
+            <div class="number" style="background-image: url(./img/image_part_003.jpg);">3</div>
+            <div class="number" style="background-image: url(./img/image_part_004.jpg);">4</div>
+            <div class="number" style="background-image: url(./img/image_part_005.jpg);">5</div>
+            <div class="number" style="background-image: url(./img/image_part_006.jpg);">6</div>
+            <div class="number" style="background-image: url(./img/image_part_007.jpg);">7</div>
+            <div class="number" style="background-image: url(./img/image_part_008.jpg);">8</div>
+            <div class="number" style="background-image: url(./img/image_part_009.jpg);">9</div>
+            <div class="number" style="background-image: url(./img/image_part_010.jpg);">10</div>
+            <div class="number" style="background-image: url(./img/image_part_011.jpg);">11</div>
+            <div class="number" style="background-image: url(./img/image_part_012.jpg);">12</div>
+            <div class="number" style="background-image: url(./img/image_part_013.jpg);">13</div>
+            <div class="number" style="background-image: url(./img/image_part_014.jpg);">14</div>
+            <div class="number" style="background-image: url(./img/image_part_015.jpg);">15</div>
+            <div class="number" style="background-image: url(./img/image_part_016.jpg);">16</div>
+        </div>        
+        <div id="end" class="number-box"></div>
+    </div>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
